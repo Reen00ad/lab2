@@ -132,6 +132,7 @@ public class Main {
             int length=n.length();
             if(length>longest){
                 longest=length;
+               list.clear();
             }
             if(length==longest)
                 list.add(n);
